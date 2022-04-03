@@ -1,0 +1,42 @@
+ion-content{
+  --ion-background-color: transparent;
+}
+
+// .bg-color{
+// background: rgb(129, 210, 236);
+// }
+
+ion-header{
+   position:absolute;
+}
+
+ion-toolbar{
+  --ion-background-color:transparent;
+  --opacity:0;
+}
+ion-card{
+  --ion-background-color:transparent;
+  box-shadow: none !important;
+}
+ion-card-title{
+  margin-top: 40px;
+  font-size: large;
+  color: #53565A;
+  text-align: center;
+}
+ion-card-subtitle{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.social-media-span{
+   align-items: center;
+}
+
+.social-media{
+
+  align-items: center;
+
+
+}

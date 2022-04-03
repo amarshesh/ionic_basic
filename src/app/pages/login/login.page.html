@@ -1,0 +1,84 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+           Welcome
+      </ion-card-title>
+      <ion-card-subtitle>
+        Use this app for better english lerning!!
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card> -->
+
+  <ion-card-content>
+    <form >
+    <div class="wrapForm">
+      <ion-item>
+        <ion-input
+          type="text"
+          name="email"
+          [(ngModel)]="email"
+          placeholder="Email"
+          required
+        >
+          <ion-icon name="mail-oitline"></ion-icon>
+        </ion-input>
+      </ion-item>
+    </div>
+
+     <div class="wrapForm">
+             <ion-item>
+        <ion-input
+          type="password"
+          name="password"
+          [(ngModel)]="email"
+          placeholder="*********"
+          required
+        >
+          <ion-icon name="lock-closed"></ion-icon>
+        </ion-input>
+      </ion-item>
+    </div>
+
+
+    <div class="forgot-password">
+      <ion-button fill="clear" class="ion-no-padding"
+        >Forgot_password?</ion-button
+      >
+    </div>
+
+
+    <div class="sign-in-btn">
+      <ion-button shape="round" fill="solid">Log_in</ion-button>
+    </div>
+
+    <div>
+      <span class="Dont_have_account">
+        <div>Don't have a account?</div>
+        <span>Login with</span>
+        <div class="social-media">
+          <ion-button fill="clear" class="login-facebook">
+            <ion-img src="../../../assets/images/apple3.png"></ion-img>
+          </ion-button>
+          <ion-button fill="clear" class="login-facebook">
+            <ion-img src="../../../assets/images/google3.png"></ion-img>
+          </ion-button>
+          <ion-button fill="clear" class="login-facebook">
+            <ion-img src="../../../assets/images/facebeek3.png"></ion-img>
+          </ion-button>
+        </div>
+      </span>
+    </div>
+</form>
+  </ion-card-content>
+
+        <ion-button shape="round" fill="solid">Sign_up</ion-button>
+
+
+
+</ion-content>
